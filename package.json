@@ -1,6 +1,6 @@
 {
   "name": "@endurance/modal-manager",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "private": false,
   "description": "Simple pattern for view state management in local components",
   "license": "MIT",
