@@ -19,7 +19,6 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
-      - run: rm -rf .npmrc
       - run: npm install
       - run:
           name: Run tests
@@ -29,28 +28,23 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
       - persist_to_workspace:
           root: ~/repo
           paths: .
   bump-version:
     <<: *defaults
     steps:
-      - attach_workspace:
-          at: ~/repo
+      - checkout
       - run:
           command: git config --global user.email "jeidehen@gmail.com"
       - run:
-          command: git config --global user.name "Endurance Idhen"
+          command: git config --global user.name "Endurance Idehen"
       - run:
           name: bump package version
           command: |
             npm version patch -m "Bumped version number to %s [ci skip]"
             git push origin master
             git push --tags
-      - persist_to_workspace:
-          root: ~/repo
-          paths: .
   deploy:
     <<: *defaults
     steps:

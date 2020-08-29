@@ -53,5 +53,8 @@
     },
     "coverageDirectory": "./coverage",
     "testEnvironment": "node"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
