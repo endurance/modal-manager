@@ -4,9 +4,7 @@ A simple programmatic interface for rendering your modal components.
 
 ## Why?
 
-It's really easy and convenient to render a modal component outside of your view. 
-
-i.e. in response to an event or user action, rather than having to do boolean variable gymnastics in your view.
+It would be nice if we could render a modal on demand, rather than embedding the component inside our views directly.
 
 ## How do I use it?
 
