@@ -1,6 +1,6 @@
 {
   "name": "@endurance/modal-manager",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "description": "Programmatic access to modals for React",
   "license": "MIT",
@@ -55,6 +55,6 @@
     "testEnvironment": "node"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
