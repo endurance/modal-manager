@@ -1,6 +1,6 @@
 {
   "name": "@endurance/modal-manager",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "description": "Programmatic access to modals for React",
   "license": "MIT",
