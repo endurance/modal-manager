@@ -2,7 +2,7 @@
   "name": "@endurance/modal-manager",
   "version": "1.0.9",
   "private": false,
-  "description": "Programmatic access to modals for React",
+  "description": "Easy to use modal creator for React JS",
   "license": "MIT",
   "files": [
     "dist"
