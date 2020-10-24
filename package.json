@@ -1,6 +1,6 @@
 {
-  "name": "@endurance/modal-manager",
-  "version": "1.0.10",
+  "name": "@enduranceidehen/modal-manager",
+  "version": "1.0.11",
   "private": false,
   "description": "Easy to use modal creator for React JS",
   "license": "MIT",
@@ -53,8 +53,5 @@
     },
     "coverageDirectory": "./coverage",
     "testEnvironment": "node"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
